@@ -6,4 +6,8 @@
         android:id="@+id/id_edit_tool"
         android:title="Edit"
         ></item>
+    <item
+        android:id="@+id/id_save_tool"
+        android:title="Save"
+        ></item>
 </menu>
