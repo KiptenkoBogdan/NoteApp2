@@ -41,7 +41,7 @@ public class AddArticleDialog extends AppCompatDialogFragment {
                     public void onClick( DialogInterface dialog, int which) {
                         String title = editTitle.getText().toString();
                         String subTitle = editSubtitle.getText().toString();
-                        dialogInterface.applyEditText(title, subTitle);
+                        dialogInterface.createNewArticle(title, subTitle);
                     }
                 });
 

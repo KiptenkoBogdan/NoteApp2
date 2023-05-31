@@ -8,7 +8,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/article_title_edit"
+        android:id="@+id/edit_title"
         android:padding="10dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
@@ -20,8 +20,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/article_subtitle_edit"
-        android:layout_below="@id/article_title_edit"
+        android:id="@+id/edit_subtitle"
+        android:layout_below="@id/edit_title"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:padding="10dp"
@@ -33,15 +33,15 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/article_subtitle_edit"
+        android:layout_below="@id/edit_subtitle"
         >
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/article_edit"
+            android:id="@+id/edit_articleText"
             android:inputType="textMultiLine"
-            android:layout_below="@id/article_subtitle_edit"
+            android:layout_below="@id/edit_subtitle"
             android:lineSpacingExtra="5sp"
             android:background="@color/white"
             android:textColor="@color/black"
